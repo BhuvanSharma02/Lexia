@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background ImageView with proper scaling -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/homophone_background"
+        android:scaleType="centerCrop" />  <!-- or "fitXY" if you want exact stretching -->
+
+    <!-- Your existing content on top of the background -->
+    <LinearLayout
+        android:id="@+id/levelSelectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@android:color/transparent">
+
+        <!-- Rest of your layout remains the same -->
+        <TextView
+            android:id="@+id/selectLevelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a Level"
+            android:textSize="26sp"
+            android:textColor="#000"
+            android:layout_marginBottom="32dp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnLevel1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="1"
+                android:textSize="24sp"
+                android:layout_margin="8dp"
+                android:backgroundTint="#72B174"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnLevel2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="2"
+                android:textSize="24sp"
+                android:layout_margin="8dp"
+                android:backgroundTint="#41A8F4"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnLevel3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="3"
+                android:textSize="24sp"
+                android:layout_margin="8dp"
+                android:backgroundTint="#FFBD5C"
+                android:textColor="#FFFFFF" />
+        </GridLayout>
+    </LinearLayout>
+</FrameLayout>

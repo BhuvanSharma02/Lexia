@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_game.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ACE4FF"
+    android:padding="16dp">
+
+    <!-- Image View -->
+
+    <!-- Dotted Outline Text -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="Image of the word to guess"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/dottedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Dotted outline of the word to guess"
+        android:fontFamily="@font/dotted"
+        android:text="A _ _ _ _"
+        android:textSize="55sp"
+    />
+
+    <!-- Jumbled Letters -->
+    <GridLayout
+        android:id="@+id/lettersContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:rowCount="2"
+        android:alignmentMode="alignBounds"
+        android:orientation="horizontal">
+
+    <!-- Letters will be added programmatically -->
+    </GridLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</LinearLayout>

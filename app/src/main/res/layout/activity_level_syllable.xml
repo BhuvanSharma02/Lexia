@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background ImageView -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sky_background"
+        android:contentDescription="@null" />
+
+    <!-- Foreground Content -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/level1"
+                style="@style/SyllableButtonStyle"
+                android:text="1"
+                android:layout_width="140dp"
+                android:layout_height="70dp" />
+
+            <Button
+                android:id="@+id/level2"
+                style="@style/SyllableButtonStyle"
+                android:text="2"
+                android:layout_width="140dp"
+                android:layout_height="70dp" />
+
+            <Button
+                android:id="@+id/level3"
+                style="@style/SyllableButtonStyle"
+                android:text="3"
+                android:layout_width="140dp"
+                android:layout_height="70dp" />
+
+            <Button
+                android:id="@+id/level4"
+                style="@style/SyllableButtonStyle"
+                android:text="4"
+                android:layout_width="140dp"
+                android:layout_height="70dp" />
+        </GridLayout>
+    </LinearLayout>
+</FrameLayout>
+

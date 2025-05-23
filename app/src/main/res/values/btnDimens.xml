@@ -1,0 +1,4 @@
+<!-- res/values/dimens.xml -->
+<resources>
+    <dimen name="jumbled_letter_button_size">60dp</dimen> <!-- Fixed button size -->
+</resources>

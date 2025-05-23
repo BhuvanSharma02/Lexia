@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_listening">#FF5252</color>  <!-- Red -->
+    <color name="button_ready">#3F51B5</color>     <!-- Blue -->
+    <color name="purple_500">#FF6200EE</color>
+    <color name="syllable_1">#5E77FF</color>
+    <color name="syllable_2">#57FAE5</color>
+    <color name="syllable_3">#FD784E</color>
+    <color name="syllable_4">#FB5690</color>
+    <color name="syllable_5">#8F57F8</color>
+    <color name="fruitColor">#F86C6C</color>
+    <color name="vegetableColor">#7FC97F</color>
+    <color name="animalColor">#FFD700</color>
+    <color name="colorColor">#BE90D4</color>
+    <color name="shapeColor">#5DADE2</color>
+    <color name="vehicleColor">#FFA500</color>
+    <color name="correct_green">#4CAF50</color>
+    <color name="incorrect_red">#F44336</color>
+    <color name="syllable1">#FFD580</color>
+    <color name="syllable2">#A5D8FF</color>
+    <color name="syllable3">#B9FBC0</color>
+    <color name="syllable4">#FFC9DE</color>
+    <color name="correctGreen">#388E3C</color>
+    <color name="errorRed">#D32F2F</color>
+
+
+</resources>

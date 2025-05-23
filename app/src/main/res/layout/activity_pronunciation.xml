@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="Word to pronounce"/>
+
+    <TextView
+        android:id="@+id/wordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Mic Button -->
+    <ImageView
+        android:id="@+id/micButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_mic_off"
+        android:layout_marginTop="32dp"
+        android:contentDescription="Microphone button"/>
+
+    <TextView
+        android:id="@+id/listeningStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listening..."
+        android:visibility="gone"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/hearCorrectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hear Correct Pronunciation"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Word"
+        android:layout_marginTop="32dp"/>
+</LinearLayout>

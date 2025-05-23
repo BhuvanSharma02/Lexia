@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/journeyCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginVertical="8dp"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_journey1">
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@android:drawable/ic_media_play"
+        app:tint="#00474D"
+        android:contentDescription="Play Icon"
+        android:layout_marginEnd="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/journeyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journey 1"
+            android:textColor="#00474D"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/videoRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos 6–34"
+            android:textColor="#00474D"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</LinearLayout>
