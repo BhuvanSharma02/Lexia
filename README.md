@@ -19,10 +19,7 @@ A fun and educational Android app designed to help kids learn and spell interact
 
 | Home Screen | Game Screen | Quiz Screen |
 |-------------|-------------|-------------|
-| ![Home](https://github.com/user-attachments/assets/a7f78a07-b284-4c7e-8f30-c629943b806c)
-| ![Game](https://github.com/user-attachments/assets/a2ccd616-8168-4936-a3b2-97f496989894)
-| ![Quiz](https://github.com/user-attachments/assets/7d9c6d2d-ee3a-4bd9-a69a-78c10a323b5b)
-|
+| ![Home](https://github.com/user-attachments/assets/a7f78a07-b284-4c7e-8f30-c629943b806c) | ![Game](https://github.com/user-attachments/assets/a2ccd616-8168-4936-a3b2-97f496989894) | ![Quiz](https://github.com/user-attachments/assets/7d9c6d2d-ee3a-4bd9-a69a-78c10a323b5b) |
 
 ---
 
